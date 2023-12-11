@@ -6,12 +6,17 @@ import { BiSearchAlt } from "react-icons/bi";
 import { HouseContext } from "./HouseContext";
 
 const Search = () => {
+  const { handleClick } = useContext(HouseContext);
+
   return (
     <div className="px-[30px] py-6 max-w-[1170px] mx-auto flex flex-col lg:flex-row justify-between gap-4 lg:gap-x-3 relative lg:-top-4 lg:shadow-1 bg-white lg:bg-transparent lg:backdrop-blur rounded-lg">
       <CountryDropdown />
       <PropertyDropdown />
       <PriceRangeDropdown />
-      <button className="bg-sky-500 hover:bg-sky-700 transition w-full lg:max-w-[162px] h-16 rounded-lg flex justify-center items-center text-white text-lg">
+      <button
+        onClick={() => handleClick()}
+        className="bg-sky-500 hover:bg-sky-700 transition w-full lg:max-w-[162px] h-16 rounded-lg flex justify-center items-center text-white text-lg"
+      >
         <BiSearchAlt />
       </button>
     </div>
