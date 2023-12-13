@@ -22,9 +22,9 @@ const PropertyDropdown = () => {
           <div className="text-[13px]">Select your home</div>
         </div>
         {isOpen ? (
-          <RiArrowUpSLine className="dropdown-icon-secondary" />
-        ) : (
           <RiArrowDownSLine className="dropdown-icon-secondary" />
+        ) : (
+          <RiArrowUpSLine className="dropdown-icon-secondary" />
         )}
       </Menu.Button>
 
