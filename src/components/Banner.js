@@ -11,13 +11,14 @@ const Banner = () => {
             <span className="text-sky-500">Rent</span> Your Dream Home With Us.
           </h1>
           <p className="max-w-[480px] mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Welcome to Dream Home, where your vision of the perfect living space
+            transforms into reality. Embrace the extraordinary in our curated
+            collection of exquisite rental properties that redefine the meaning
+            of home. Whether you desire a sleek urban apartment, a tranquil
+            countryside retreat, or a luxurious beachfront escape, Dream Home is
+            your gateway to unparalleled comfort and style. Immerse yourself in
+            the allure of exceptional living as we invite you to explore a world
+            where every dwelling tells a unique story.
           </p>
         </div>
         <div className="hidden flex-1 lg:flex justify-end items-end">
